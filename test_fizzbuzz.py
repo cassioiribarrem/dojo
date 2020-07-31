@@ -18,3 +18,6 @@ def test_should_return_buzz_given_5():
 
 def test_should_return_fizz_given_6():
     assert 'Fizz' == fizzbuzz(6)
+
+def test_should_return_buzz_given_10():
+    assert 'Buzz' == fizzbuzz(10)
